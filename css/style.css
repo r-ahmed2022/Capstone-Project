@@ -215,19 +215,21 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    
-}
+     }
 
 .program-section-main {
+ width: 100%;
  margin: 0 100px;
  height: 500px;
  color: var(--bg-styling);
+ display: flex;
+ justify-content: center;
+ align-items: start;
+ padding-top: 70px;
 }
 
 .program-heading {
-  border-bottom: 2px solid #EC5242;
+  text-align: center;
   width: 5px;
 }
 
