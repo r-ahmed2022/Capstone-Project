@@ -237,6 +237,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 5px;
+  margin: 20px 0;
 }
 
 .program-heading {
@@ -493,6 +494,19 @@ body {
   box-shadow: 1px 1px 2px 4px #fff;
 }
 
+.about-card {
+  display: flex;
+  flex-direction: column;
+}
+
+#container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+}
+
 @media (max-width: 768px) {
   .wrapper {
     width: 100%;
@@ -586,6 +600,7 @@ body {
 
   .programs {
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: auto;
     height: auto;
@@ -601,6 +616,11 @@ body {
   .program-card {
     margin: 5px 0;
     gap: 1rem;
+  }
+
+  .about-card {
+    display: flex;
+    flex-direction: column;
   }
 
   .sms > .container-1 {
