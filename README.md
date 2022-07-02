@@ -1,5 +1,5 @@
 # Capstone-Project
-[https://github.com/r-ahmed2022/Capstone-Project/]
+[https://r-ahmed2022.github.io/Capstone-Project/]
 
 ## Built With
 
